@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Webpage</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .grid-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Image Links Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Here's a linked image related to technology:</p>
+        <a href="https://unsplash.com/photos/woman-in-black-top-using-surface-laptop-glRqyWJgUeY" target="_blank"><img src="images/technology.jpg"
+                alt="Technology Image"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore our gallery of images related to nature:</p>
+        <div class="grid-container">
+            <div class="grid-item"><a href="https://unsplash.com/photos/waves-of-body-of-water-splashing-on-sand-mBQIfKlvowM" target="_blank"><img src="images/nature1.jpg"
+                        alt="Nature Image 1"></a></div>
+            <div class="grid-item"><a href="https://unsplash.com/photos/green-grass-field-during-sunset-_RBcxo9AU-U" target="_blank"><img src="images/nature2.jpg"
+                        alt="Nature Image 2"></a></div>
+            <div class="grid-item"><a href="https://unsplash.com/photos/people-on-top-of-hill-under-white-clouds-golden-hour-photography-CakC6u4d95g" target="_blank"><img src="images/nature3.jpg"
+                        alt="Nature Image 3"></a></div>
+            <!-- Add more grid items as needed -->
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Check out our delicious menu:</p>
+        <ul>
+            <li><a href="https://unsplash.com/photos/vegetable-and-meat-on-bowl-kcA-c3f_3FE" target="_blank">Salad With Soy</a></li>
+            <li><a href="https://unsplash.com/photos/baked-pancakes-eeqbbemH9-c" target="_blank">Bread Cracker</a></li>
+            <li><a href="https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU" target="_blank">Pizza</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Webpage. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
